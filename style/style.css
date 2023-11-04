@@ -1,13 +1,18 @@
+@font-face {
+  font-family: "Inter2";
+  src: url("./../Inter/static/Inter-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Inter2";
+  src: url("./../Inter/static/Inter-Medium.ttf");
+  font-weight: 500;
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-}
-
-@font-face {
-  font-family: "Inter", sans-serif;
-  src: url("./../Inter/Inter-VariableFont_slnt\,wght.ttf");
+  font-family: "Inter2", sans-serif;
 }
 
 .attribution {
@@ -52,7 +57,7 @@
 }
 #rate_start h2 {
   color: #fff;
-  font-family: Inter, sans-serif;
+  font-family: "Inter2", sans-serif;
   font-size: 26px;
   font-weight: 700;
   margin: 34px 0 14px 0;
@@ -63,7 +68,7 @@
 #rate_start p {
   color: #7b818d;
 
-  font-family: Inter, sans-serif;
+  font-family: "Inter2", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -81,7 +86,7 @@
   height: 53px;
   background-color: #262f38;
   color: #707883;
-  font-family: Inter, sans-serif;
+  font-family: "Inter2", sans-serif;
   font-size: 18px;
   border-radius: 50%;
   display: flex;
@@ -108,7 +113,7 @@
   color: #fff;
   width: 100%;
   border: none;
-  font-family: Inter, sans-serif;
+  font-family: "Inter2", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
@@ -141,7 +146,7 @@
   background: #262f38;
   color: #fc7614;
   text-align: center;
-  font-family: Inter, sans-serif;
+  font-family: "Inter2", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -150,7 +155,7 @@
 #rate_end h2 {
   margin: 33px 0 14px;
   color: #fff;
-  font-family: Inter, sans-serif;
+  font-family: "Inter2", sans-serif;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -159,7 +164,7 @@
 #rate_end p {
   color: #7b818d;
   text-align: center;
-  font-family: Inter, sans-serif;
+  font-family: "Inter2", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
